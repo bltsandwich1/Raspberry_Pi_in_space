@@ -13,7 +13,12 @@ Our first goal will be to create enough code to send the Pi on a HAB (High Altit
 Final Goals
 ===========
 
-Our final goal is to send the Pi in a cube sat to Low Earth Orbit with a variety of experiements.
+Our final goal is to send the Pi in a cube sat to Low Earth Orbit with a variety of experiments.
+
+About the code
+==============
+
+The code for this project is being written in Python 3.3. Navigate to the Python directory in order to see the code that will be making the Pi run, record data, and communicate with the ground.
 
 Questions
 =========
