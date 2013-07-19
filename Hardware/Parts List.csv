@@ -2,3 +2,8 @@ Part,Purpose,Source (URL),Price
 Raspberry Pi,Control,,
 USB PSU,Power,,
 PiFace,Controling I2C devices,,
+IR sensor,experiment,,
+Megnetometer,experiment,,
+radiation sensor,experiment,,
+3 axis tilt,experiment,,
+camera board,experiment,,
