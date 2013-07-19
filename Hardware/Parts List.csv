@@ -1,3 +1,4 @@
 Part,Purpose,Source (URL),Price
 Raspberry Pi,Control,,
 USB PSU,Power,,
+PiFace,Controling I2C devices,,
