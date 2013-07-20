@@ -1,9 +1,12 @@
-Part,Purpose,Source (URL),Price
-Raspberry Pi,Control,,
-USB PSU,Power,,
-PiFace,Controling I2C devices,,
-IR sensor,experiment,,
-Megnetometer,experiment,,
-radiation sensor,experiment,,
-3 axis tilt,experiment,,
-camera board,experiment,,
+Part,Purpose,Source (URL),Price,Notes
+Raspberry Pi,Control,,,
+USB PSU,Power,,,
+PiFace,Controling I2C devices,,,
+IR sensor,experiment,,,
+Megnetometer,experiment,,,
+radiation sensor,experiment,,,
+3 axis tilt,experiment,,,
+camera board,experiment,,25,
+RGB color sensor,experiment,http://www.adafruit.com/products/1334 ,15,
+Pressure/Temp,Control,http://www.adafruit.com/products/391 ,20,
+MCP3008,,https://www.adafruit.com/products/856 ,5,Analog to Digital convverer
