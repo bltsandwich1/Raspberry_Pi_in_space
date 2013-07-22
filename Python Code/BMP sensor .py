@@ -25,7 +25,7 @@ print ("altitude = %.2f ") % altitude
 #####################################################################
 
 while(1==1):
-        delta_i = time.clock ()
+        delta_i = time.clock () ###!!! should we be using time.CLOCK_REALTIME ??? !!!###
 	flight_temps_press = open('flight_temps_press', 'r+')
 	flight_temps_press.seek(2)
 	
