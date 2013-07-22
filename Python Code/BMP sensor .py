@@ -24,6 +24,16 @@ print ("altitude = %.2f ") % altitude
 ###### This code is used for actually writing to files ##############
 #####################################################################
 
-flight_temps_press = open('flight_temps_press', 'r+')
+while(1==1):
+        delta_i = time.clock ()
+	flight_temps_press = open('flight_temps_press', 'r+')
+	flight_temps_press.seek(2)
+	
+	flight_temps_press.write('temp' temp, 'pressure' pressure, 'altitude' altitude)
 
-flight_temps_press.seek(2)
+	delta_f = time.clock ()
+	delta = 6 - (delta_f - delta_i)
+#	Print (delta)
+###^^^^^Above used to validate whether it is working or not, uncomment to test^^^^^^###
+	time.sleep (delta)
+	
