@@ -26,14 +26,16 @@ print ("altitude = %.2f ") % altitude
 
 while(1==1):
         delta_i = time.clock () ###!!! should we be using time.CLOCK_REALTIME ??? !!!###
-	flight_temps_press = open('flight_temps_press', 'r+')
-	flight_temps_press.seek(2)
+	flight_temps_press = open('flight_temps_press', 'r+')###!!! is this proper syntax??? #Open file to be edited
+	flight_temps_press.seek(2)#go to end of file
 	
-	flight_temps_press.write('temp' temp, 'pressure' pressure, 'altitude' altitude)
+	flight_temps_press.write('temp ', temp, ' pressure ', pressure, ' altitude ', altitude, \n) #write out data in a format suitable for .CSV export
 
-	delta_f = time.clock ()
-	delta = 6 - (delta_f - delta_i)
+	delta_f = time.clock () #end time
+	delta = 6 - (delta_f - delta_i) #make sure data readings are taken 6 seconds apart #############Should be using more or less than 6 sec?############
 #	Print (delta)
 ###^^^^^Above used to validate whether it is working or not, uncomment to test^^^^^^###
-	time.sleep (delta)
+	time.sleep (delta) #sleep 6 sec
+	
+###Current code makes it necesary to use a fresh file every time.###
 	

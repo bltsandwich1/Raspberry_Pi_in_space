@@ -6,7 +6,8 @@ IR sensor,experiment,,,
 Megnetometer,experiment,,,
 radiation sensor,experiment,,,
 3 axis tilt,experiment,,,
-camera board,experiment,,25,
+camera board,experiment, ,25,
 RGB color sensor,experiment,http://www.adafruit.com/products/1334 ,15,
-Pressure/Temp,Control,http://www.adafruit.com/products/391 ,20,
-MCP3008,,https://www.adafruit.com/products/856 ,5,Analog to Digital convverer
+Pressure/Temp,experiment,http://www.adafruit.com/products/391 ,20,
+MCP3008,Control,https://www.adafruit.com/products/856 ,5,analog to digital converter
+Pure Temp,Monitoring,(google this),7,does this part have the temp range we want?
